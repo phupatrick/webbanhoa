@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thông tin sinh viên</title>
+    <link rel="stylesheet" href="thongtin.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="gioithieu"><h1>Giới thiệu đề tài</h1><a id="in4">Hoa luôn là một trong vẻ đẹp của cuộc sống chúng ta  <br>
+    đặc biệt là đối với mọi người dù là người lớn tuổi hay những người trẻ luôn biết cách để thưởng thức những bông hoa.<br><br>
+    Vậy thì với một website bán hoa của chúng em mang đến những lợi ích : <br>
+    Thu hút, tiếp cận khách hàng một cách đơn giản, dễ dàng, nhanh chóng với một website bán hoa <br>
+    Cổ kim có câu "Bạn có thể quên tên của một bông hoa nhưng bạn không thể nào phủ nhận vẻ đẹp của nó" <br>
+    <br> => Vì vậy nhóm em quyết định làm đồ án thiết kế Web bán hoa </a>
+</div>  
+    <h1 id="tv">
+        Thành viên nhóm <br><p>(Rê chuột vào ảnh để xem chi tiết) </h1>
+    <div class="container">
+        <div class="icon-social">
+                      <a href="https://www.facebook.com/chauhuyyyyy/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                      <a href="https://mail.google.com/mail/u/0/#inbox" ><i class="fa fa-google" aria-hidden="true"></i></a>
+                      <a href="https://www.instagram.com/chauhuy2511/" ><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+        <img src="img/avatar.jpg" alt="">
+        <h2>Châu Hoàng Minh Huy</h2>
+        <p>Quận 12, Thành Phố Hồ Chí Minh</p>
+        <p>Sinh viên Trường Đại học Công Nghiệp Thực Phẩm</p>
+        <div class="btn-container">
+            <button>Liên hệ</button>
+            <button>Kết bạn</button>
+        </div>
+    </div>
+    <div class="container">
+        <img src="img/avatar1.jpg" alt="">
+        <h2>Nguyễn Hoàng Phú</h2>
+        <p>Cần Giuộc, Long An</p>
+        <p>Sinh viên Trường Đại học Công Nghiệp Thực Phẩm</p>
+        <div class="btn-container">
+            <button>Liên hệ</button>
+            <button>Kết bạn</button>
+        </div>
+    </div>  
+</body>
+<script>
+    const imgB=document.querySelector('.container img')
+    imgB.addEventListener("click",function(){
+        this.classList.toggle("active")
+    })
+</script>
+</html>
